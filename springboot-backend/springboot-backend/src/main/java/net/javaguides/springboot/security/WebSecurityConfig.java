@@ -65,15 +65,7 @@ import org.springframework.security.web.authentication.UsernamePasswordAuthentic
 
             http.addFilterBefore(authenticationJwtTokenFilter(), UsernamePasswordAuthenticationFilter.class);
 
-//                    Authentication authentication =
-//                    authenticationManager.authenticate(
-//                            new UsernamePasswordAuthenticationToken(username, password)
-//                    );
-//
-//            UserDetails userDetails = (UserDetails) authentication.getPrincipal();
-//// userDetails.getUsername()
-//// userDetails.getPassword()
-// userDetails.getAuthorities()
+
         }
 
 }
